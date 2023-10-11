@@ -1,0 +1,153 @@
+/* Common CSS */
+body {
+  background-color: aqua;
+}
+
+#header {
+  background-color: rgb(88, 88, 88);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 5px;
+
+}
+
+#main {
+  color:aliceblue;
+  background-color: rgba(17, 17, 247, 0.842);
+  min-height: 100vh;
+  padding: 100px 80px 50px; /* top, right/left, bottom */
+  display:inline-block;
+}
+
+h1 {
+  color: aliceblue;
+  display: inline-block;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 26px;
+  text-decoration: underline;
+}
+
+nav {
+  color: aliceblue;
+  float: right;
+  margin-top: 4%;
+  font-size: 25px;
+  
+}
+
+p {
+  margin: 1em;
+  font-size: 25px;
+}
+
+/* Homepage CSS */
+
+.home-heading {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: sans-serif 
+}
+
+.second-heading {
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+
+.quote {
+  color: aliceblue;
+  font-size: 35px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.homepic {
+  width: 20rem;
+  height: 20rem;
+  float: right;
+}
+
+/* About CSS */
+
+#exploring {
+  display: inline-block;
+}
+
+
+.exploring{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.exmax {
+  float:left;
+  height: 15%;
+  width: 15%;
+}
+
+.excharlie {
+  float: right;
+  height: 15%;
+  width: 15%;
+}
+
+.soccer{
+  display: inline-block;
+}
+
+.soccer-ball {
+  height: 10%;
+  width: 10%;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float:right;
+}
+
+.game-image {
+  height: 50%;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Portfolio CSS */
+
+.projects {
+  text-align: center;
+  font-size: 40px;
+}
+
+.brenna {
+  color:black;
+  background-color: aliceblue;
+  border: 5px solid black;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.ts {
+  color:black;
+  background-color: aliceblue;
+  border: 5px solid black;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.tspic {
+  height: 30%;
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
