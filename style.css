@@ -183,3 +183,7 @@ p {
   width: 100%;
   display:block;
 }
+
+#submit-btn {
+  font-size: 25px;
+}
