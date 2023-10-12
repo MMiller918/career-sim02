@@ -17,6 +17,10 @@ a {
   color:aliceblue;
 }
 
+a:hover {
+  background-color:aqua;
+}
+
 
 /* Working main CSS */
 #main {
@@ -191,4 +195,8 @@ p {
 
 #submit-btn {
   font-size: 25px;
+}
+
+#submit-btn:hover {
+  background-color: aqua;
 }
