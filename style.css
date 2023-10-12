@@ -17,6 +17,7 @@ a {
   color:aliceblue;
 }
 
+
 /* Working main CSS */
 #main {
   color:aliceblue;
@@ -176,7 +177,7 @@ p {
 
 .text-box {
   border: 2px solid black;
-  height: 30px;
+  height: 2rem;
   width: 100%;
   display: block;
 }
