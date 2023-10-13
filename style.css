@@ -23,6 +23,7 @@ a:hover {
 
 
 /* Working main CSS */
+
 #main {
   color: aliceblue;
   background-color: rgba(17, 17, 247, 0.842);
@@ -39,13 +40,9 @@ h1 {
   font-weight: bold;
 }
 
-/* Use of !important was used to show how its used
-can go back and edit it. */
-
 h3 {
   font-size: 26px;
   text-decoration: underline;
-  color: aliceblue;
 }
 
 nav {
@@ -59,7 +56,10 @@ nav {
 p {
   margin: 1em;
   font-size: 25px;
-  font-family: 'Times New Roman', Times, serif;
+}
+
+div p {
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 /* Homepage CSS */
@@ -107,6 +107,13 @@ p {
   padding: 2%;
 }
 
+h4 {
+  align-items: center;
+  font-size: 2rem;
+  color: gold;
+  font-family: cursive;
+}
+
 .exmax {
   float:left;
   height: 15%;
@@ -149,6 +156,7 @@ p {
   border: 5px solid black;
   padding: 1rem;
   margin: 1rem;
+  text-align: center;
 }
 
 .ts {
@@ -157,12 +165,13 @@ p {
   border: 5px solid black;
   padding: 1rem;
   margin: 1rem;
+  text-align: center;
 }
 
 .tspic {
   height: 30%;
   width: 30%;
-  display: block;
+  /* display: block; */
   margin-left: auto;
   margin-right: auto;
 }
