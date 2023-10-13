@@ -42,6 +42,7 @@ h1 {
 h3 {
   font-size: 26px;
   text-decoration: underline;
+  color: aliceblue !important;
 }
 
 nav {
@@ -74,10 +75,11 @@ p {
 
 
 .quote {
-  color: aliceblue;
+  color: #FFD700;
   font-size: 35px;
   text-align: center;
   text-decoration: none;
+  font-family: cursive;
 }
   
 .homepic {
@@ -92,23 +94,15 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* border: 10px solid black; */
 }
 
 .horizontal-flex {
   display: flex;
   flex-direction: row;
   align-items: center;
-  border: 5px solid black;
+  border: 5px solid aqua;
   padding: 2%;
 }
-
-
-/* .exploring{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-} */
 
 .exmax {
   float:left;
@@ -122,15 +116,11 @@ p {
   width: 15%;
 }
 
-.soccer{
-  display: inline-block;
-}
 
 .soccer-ball {
   height: 10%;
   width: 10%;
   border-radius: 50%;
-  display: block;
   margin-left: auto;
   margin-right: auto;
   float:right;
@@ -139,7 +129,6 @@ p {
 .game-image {
   height: 50%;
   width: 50%;
-  display: block;
   margin-left: auto;
   margin-right: auto;
 }
